@@ -1,0 +1,12 @@
+#c {
+    background-color: #ff6250;
+    height: 15%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+ 
+    
+
+    text-align: center;
+    
+}
