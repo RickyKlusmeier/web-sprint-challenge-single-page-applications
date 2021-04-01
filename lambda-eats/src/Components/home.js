@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, Route, Switch } from "react-router-dom";
 import axios from "axios";
 import PizzaForm from './pizza'
-import CompletedPizza from './Confirmation'
+import Confirmation from './Confirmation'
 import formSchema from '../../cypress/integration/FormSchema' 
 // import Header from './Components/header'
 import * as yup from "yup";
@@ -95,8 +95,8 @@ export default function Home () {
                         error={formErrors}
                     />
                 </Route>
-                <Route path="/completedPizza">
-                    <CompletedPizza />
+                <Route path="/confirmation">
+                    <Confirmation order={pizza}/>
                 </Route>
             </Switch>
          </>
