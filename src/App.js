@@ -1,11 +1,29 @@
-import React from "react";
+import logo from './logo.svg';
+import './App.css';
+import Header from './Components/header'
+import Home from './Components/home'
+import React from 'react'
+
+// function App() {
+//   return (
+//     <>
+//     <div className="App">
+//       <Header />
+//     </div>
+//     </>
+//   );
+// }
+
+// export default App;
 
 const App = () => {
   return (
     <>
-      <h1>Lambda Eats</h1>
-      <p>You can remove this code and create your own header</p>
+      <div className="App">
+        <Home />
+      </div>
     </>
   );
 };
+
 export default App;
