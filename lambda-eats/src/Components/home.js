@@ -3,7 +3,7 @@ import { Link, Route, Switch } from "react-router-dom";
 import axios from "axios";
 import PizzaForm from './pizza'
 import Confirmation from './Confirmation'
-import formSchema from '../../cypress/integration/FormSchema' 
+import formSchema from '../FormSchema' 
 // import Header from './Components/header'
 import * as yup from "yup";
 
